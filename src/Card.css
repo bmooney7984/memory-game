@@ -1,0 +1,28 @@
+.card {
+  width: 500px;
+  display: grid;
+  grid-template-rows: 28px min-content;
+  grid-template-columns: min-content 1fr;
+  background-color: hsl(60, 83%, 52%);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 0;
+  grid-column: 1 / 3;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.card p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 10px;
+  font-style: italic;
+}
